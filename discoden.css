@@ -255,7 +255,7 @@ width: 24px !important; }
 
 button#label_currentChannel {
 border: none !important;
-background: red!important; }
+background: #04639e!important; }
 
 div#chatMessageContainer {
 border: none !important; }
@@ -266,7 +266,7 @@ color: white !important; }
 .s-chat-sidebar #fraChatChannelMenu,
 button.channelSwitcher, button.channelSwitcher.active {
     background: blueviolet !important;
-color: red !important;	
+color: #475437 !important;	
 border: none !important;
 border-radius: 5px !important;
 box-shadow: none !important; }
