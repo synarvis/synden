@@ -280,7 +280,7 @@ div.emoteList.active {
 /* PINNED MESSAGES - This will change the background color of where staff pin news */
 
 .s-chat-message__pinned {
-background-color: red !important;
+background-color: #231914 !important;
 color: white !important;
 border: none !important; }
 
