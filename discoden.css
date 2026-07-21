@@ -31,9 +31,9 @@ color: white; } }
 
 @media screen and (max-width: 600px){
 body {
-background: #HEX;
+background: url('https://i.redd.it/ouo0vm6gn9f91.png') center center fixed;
 background-size: cover;
-color: #HEX; } }
+color: white; } }
 
 /* SCROLL BOXES */
  
@@ -41,27 +41,15 @@ color: #HEX; } }
 width: 7px;
 height: 7px; }
 ::-webkit-scrollbar-track {
-background: #HEX;}
+background: #04639e;}
 ::-webkit-scrollbar-thumb {
-background: #HEX; } 
+background: #04639e} 
  
 /* HEADERS -
 H1 is the big header that says 'X's Den'
 H2 is not used anywhere in the default look unless you want to use it.
 H3 is used in the side bar (above the energy panel, achievement panel, etc. */
 
-.sketchbook {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
  
 h1 {
 color: #D9A216 !important;
@@ -90,7 +78,7 @@ color: #BAB6A1 !important;
 background: none !important; }
    
 a:hover {
-color: #HEX !important; }
+color: #04639e !important; }
  
 /* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.
 You can make it a solid color by either using a HEX code, or by setting the final number in RGBA to 1.0 */
@@ -132,7 +120,7 @@ navbar-collapse is just there to hide the white line
 
 .navbar-toggle {
 border: none !important;
-background: #HEX !important;
+background: #04639e !important;
 }
 
 .navbar-collapse {
@@ -159,12 +147,6 @@ color: white; }
 and danger the same color for best results
 (quick notice maybe? more research)*/
  
-.alert {
-background: #HEX !important;
-color: #HEX !important;
-border: none !important;
-border-radius: 0px !important;
-text-align: center !important;  }
 .alert-warning {
 background: #FF9500 !important;
 color: white !important;}
@@ -193,15 +175,6 @@ border: none !important;
 border-radius: 5px !important;
 color: rgb(255, 255, 255, .5) !important;}
 	
-.comment {     
-background: #HEX !important;
-border: none !important;
-border-bottom: none !important;
-border-radius: 0px !important;
-color: #HEX !important;
-text-align: left !important;}
-.text-muted { 
-color: #HEX !important; }
 
 input.bad {
 background: #04639e !important;
@@ -231,7 +204,7 @@ box-shadow: none !important;  } */
  
 .panel {
 background: #4A352B !important;
-color: #HEX !important;
+color: white !important;
 border: none !important;
 border-radius: 10px !important;
 box-shadow: none !important;  }
@@ -241,9 +214,7 @@ Unless you color the progress bars below, all progress bars will default
 to the colors you put here.
 Bars will also inherit the border-radius value from this one, so it's
 not needed to specify border-radius for all bars. */
-.progress-bar {
-background: #HEX !important; 
-border-radius: 10px !important; }
+
 
 /* ENERGY */ .progress-bar-warning { 
 background: #04639e !important;
@@ -253,7 +224,7 @@ background: #d8b482 !important;
 color: white !important;}
 /* EXP + ACHIEVEMENTS */ .progress-bar-success { 
 background: #332c4c !important;
-color: #HEX !important;}
+color: white !important;}
 /* EXP + ACHIEVEMENTS */ .progress-bar-imp { 
 background: #332c4c !important;
 color: white !important;}
@@ -265,7 +236,6 @@ color: white !important; }
 /* This is the background of the progress bars. */
 .progress {
 background:  #4A352B;
-color: #HEX !important;
 border-radius: 0px !important;  }
 
 /* Icon Replacement - Warning
@@ -279,7 +249,7 @@ width: 24px !important; }
 
 button#label_currentChannel {
 border: none !important;
-background: #HEX !important; }
+background: red!important; }
 
 div#chatMessageContainer {
 border: none !important; }
@@ -289,8 +259,8 @@ color: white !important; }
 
 .s-chat-sidebar #fraChatChannelMenu,
 button.channelSwitcher, button.channelSwitcher.active {
-    background: #HEX !important;
-color: #HEX !important;	
+    background: blueviolet !important;
+color: red !important;	
 border: none !important;
 border-radius: 5px !important;
 box-shadow: none !important; }
@@ -300,16 +270,12 @@ div.emoteList.active {
   border: none !important;
   box-shadow: none !important;
 }
-div.emoteList.active::before {
-background: #4A352B
-border-top: none !important;
-border: none !important; }
 
 /* PINNED MESSAGES - This will change the background color of where staff pin news */
 
 .s-chat-message__pinned {
-background-color: #HEX !important;
-color: #HEX !important;
+background-color: red !important;
+color: white !important;
 border: none !important; }
 
 /* Odd will show at the TOP of chat, even will show every other message under it. If you want both colors the same, do
@@ -317,8 +283,8 @@ not touch the even/odd specifications */
 
 .s-chat-message {
 background: #4A352B !important;
-color: #HEX !important;
-border-bottom: #HEX !important; }
+color: white !important;
+border-bottom: #04639e !important; }
 
 .s-chat-message:nth-child(even) {
 background: #4A352B !important;
@@ -333,13 +299,13 @@ may 8th: stop touchy */
 	
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention {
 background-color: #4A352B !important;
-border-left: 6px solid #HEX !important;
+border-left: 6px solid #A35F00 !important;
 color: #HEX !important; }
 
 /* This is the character counter, that displays X/150 */
 
 div#lblCharacterCounter {
-color: #HEX !important; }
+color: #04639e !important; }
 
 /* I can't remember what this does but I know things get weird if you touch it
 that means do NOT touch it.
@@ -603,119 +569,6 @@ img[src$="showcase/banner.png"] {
     content:url('LINK')!important;
     width:185px!important; }
 
-
-/* CAVE COMPATIBILITY
-featured-lion changes the colors behind your featured lion, literally the strip of text where 
-it says 'featured lion: NAME'
-the image src cave default changes the image behind your lion. it will not make them display decor.
-
-table#pride.table controls where your lions names are shown. we're only giving a color value
-here, but you can also edit the background by adding in a background value.
-the a, and a:visited values are for links. this will make your lions names be the same color as whatever
-color you set for the text
-table#pride.table .xsmall just puts the lion subtext back to its regular size, since we edited all
-.xsmalls earlier when fixing FAPA. you can remove this if you want the bigger text. */
-
-.featured-lion {
-background: #HEX !important;
-color: #HEX !important;
-border: none !important;
-border-radius: 0px !important;
-padding: 0;
-margin: 0 auto;
-max-width: 640px;
-font-weight: bold;
-font-size: 14px; }
-
-img[src*="cave/default"] {
-content: url('IMG LINK') !important;}
-
-table#pride.table, table#pride.table a, table#pride.table a:visited {
-color: #HEX !important; }
-
-table#pride.table .xsmall
-{font-size: 12px !important;}
-
-/* these change the arrows that let you navigate to the next page in caves, if you do not want to change these,
-remove this section of code.
-the arrow icons are 50x30px */
-
-img[src$="arrow.png"] {
-content: url('imagelink') !important;}
-img[src$="arrowgrayleft.png"] {
-content: url('imagelink') !important;}
-
-/* this is entirely optional and can help you add a texture over your featured lion!
-please use https://www.transparenttextures.com/ to find your image
-you should still rehost the image for consistency's sake, in case this page ever goes down, but the site
-provides css you can use for this purpose and just copy and paste. do not copy and paste over the filter aspect, or it will just be a solid image
-you can change the opacity to any value between 0 and 1, just don't change it to 1.0 or it'll be a solid image
-if you do not want this, delete this section of code.
-
-you can also use the css provided by transparent textures to make other things have texture! */
-
-div.lion-image-block>img[src$="blank.png"] {
-background-color: #b98214 !important;
-    background-image: url("LINK") !important;
-filter: opacity(0.2) !important;}
-
-/* CUSTOM FOOTNOTE ICONS - MADE BY PANDORA
- Codes made by Pandora #144118  
-Codes may be edited, used in commissions or for personal use
-Please do not remove credit
-*/
-
-/* FOOTNOTE - MUT */
-img[src$="footmut.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
-
-/* FOOTNOTE - HUNT */
-img[src$="foothunt.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
-
-/* FOOTNOTE - HEIR */
-img[src$="footheir.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
-
-/* FOOTNOTE - BREED/HEART */
-img[src$="footbreed.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
-
-/* FOOTNOTE - CROSS/X */
-img[src$="footx.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
-
-/* FOOTNOTE - BIO/BOOK */
-img[src$="footbio.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
-
-/* FOOTNOTE - INFERTILE/BROKEN HEART*/
-img[src$="footinfertile.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
-
-/* This changes the color of the 'badge', aka what displays inbox notifications &
-days till heat for lionesses */
-
-.badge {
-background: #HEX !important;
-color: #HEX !important; }
-	
-/ * NO LINK UNDERLINE - This removes Link underlines at the links at the bottom of the page,
-and removes link underlines from edit your details */
-		
-.footer a:link, .footer a:visited, .footer a:active {
-border-bottom: none !important; }
-
-td.bottom a, th a {
-border-bottom: none !important; }
-
 /* BOXES
 do not give the box container a background.
 Box1, Box2, & Box3 can be repeated as many times as possible, just make sure you properly close them.
@@ -723,177 +576,6 @@ box html should look like this
 <div class="boxcontainer"><div class="Box1">text</div></div>
 <div class="boxcontainer"><div class="Box3">text</div><div class="Box2">text</div></div> */
 
-.boxcontainer {
-background: none;
-height: 75px;
-padding: 0px;
-display: block;
-justify-content: center;
-transition: 1s }
-.boxcontainer:hover {
-height: 250px; }
-   
-.Box1 {
-float: left;
-background: #HEX !important;
-color: #HEX !important;
-border: none !important;
-border-radius: 0px !important;
-padding: 5px;
-float: left;
-height: 75px;
-width: 100%;
-overflow: hidden;
-margin-bottom: 10px;
-transition: 1s }   
-.Box1:hover {
-overflow-y: auto;
-height: 250px; }
-   
-.Box2 {
-float: right;
-background: #HEX !important;
-color: #HEX !important;
-border: none !important;
-border-radius: 0px !important;
-padding: 5px;
-float: right;
-height: 75px;
-width: 30%;
-overflow: hidden;
-margin-bottom: 10px;
-transition: 1s }   
-.Box2:hover {
-overflow-y: auto;
-height: 250px; }
-	
-.Box3 {
-float: right;
-background: #HEX !important;
-color: #HEX !important;
-border: none !important;
-border-radius: 0px !important;
-padding: 5px;
-float: right;
-height: 75px;
-width: 65%;
-overflow: hidden;
-margin-bottom: 10px;
-transition: 1s }   
-.Box3:hover {
-overflow-y: auto;
-height: 250px; }
-
-/* MOBILE ONLY BOXES 
-- these will only display on mobile. use if you want a more simplified box for mobile.
-mobile box html should look like this
-<div class="mobilebox">text</div> 
-if you don't want mobile only boxes, delete everything from below this to above cave covers */
-
-.mobilebox {
-float: center;
-background: #HEX !important;
-border: 1px solid #HEX !important;
-border-radius: 0px !important;
-color: #HEX !important;
-margin: 10px;
-padding: 10px;
-float: center;
-height: 155px;
-width: 80%;
-overflow: auto;
-transition: 1s }
-
-@media only screen and (max-width: 991px) and (min-width: 768px) {
-
-		.Box1, .Box2, .Box3, .boxcontainer {
-			display: none !important;
-		display: block !important; }
-}
-
-@media only screen and (max-width: 1199px) and (min-width: 992px) {
-
-		.Box1, .Box2, .Box3, .boxcontainer {
-			display: none !important;
-		}
-
-	}
-
-	@media only screen and (max-width: 991px) and (min-width: 768px) {
-
-		.Box1, .Box2, .Box3, .boxcontainer {
-			display: none !important;
-		}
-
-	}
-
-	@media only screen and (max-width: 767px) {
-
-		.Box1, .Box2, .Box3, .boxcontainer {
-			display: none !important;
-		}
-}
-
-@media screen and (min-width: 1200px){
-
-		.mobilebox, .mobcontainer {
-			display: none !important;
-		}
-}
-
-.mobilebox, .mobcontainer {
-display: block !important; }
-.Box1, .Box2, .Box3, .boxcontainer  {
-display: none !important; }	}
-
-@media only screen and (max-width: 767px) {
-        .container.main .hidden-xs {
-            display: block !important;
-        }
-}
-
-@media only screen and (max-width: 991px) and (min-width: 768px) {
-    display: block !important;
-} 
-
-@media only screen and (min-width: 1200px) {
-        div.quote {
-            width: 790px;
-        }
-    }
-
-/* These are nice little QOL codes, credit to their creators!
-
-Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
-Codes may be edited, used in commissions or for personal use
-Please do not remove credit
-
-note from jes:
-For the members online and offline code, please only fill out one or the other.
-If you want a solid color, only fill in the 'background'
-if you want an image, only fill in the 'content' 
-or fill out both i can't stop you but it'll be a clusterfuck */
-
-/* MEMBER ONLINE */
-.member-online {
-    background: #HEX;
-    content:url('https://i.ibb.co/Tx9x3xXC/radiant.png')!important;
-	border-radius: 0px;
-    width:40px!important;
-    height:40px;
-	margin:-10px;
-	margin-left:50px; }
-	
-/* MEMBER OFFLINE */
-.member-offline {
-    background: #HEX;
-    content:url('https://i.ibb.co/9Hm9BCXG/moon.png')!important;
-	border-radius: 0px;
-    width:40px!important;
-    height:40px;
-	margin:-10px;
-	margin-left:10px;
-	filter: saturate(0%); }
 
 /* ALL CURRENCY ICONS - also by kat and pandora 
 if you do not want to change currency icons, simply delete this section of code */
@@ -1025,7 +707,7 @@ DO IT BELOW THIS POINT BUT BEFORE THE CREDIT */
  
 .breadcrumb::after {
 content: "sunrise parabellum.";
-color: #HEX;
+color: #b98214;
 position: absolute;
 right: 15%;
 z-index: 100; }
