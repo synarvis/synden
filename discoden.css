@@ -740,7 +740,7 @@ or fill out both i can't stop you but it'll be a clusterfuck */
 
 /* MEMBER ONLINE */
 .member-online {
-    background: #HEX;
+    background: none;
     content:url('https://i.ibb.co/Tx9x3xXC/radiant.png')!important;
 	border-radius: 0px;
     width:40px!important;
@@ -750,7 +750,7 @@ or fill out both i can't stop you but it'll be a clusterfuck */
 	
 /* MEMBER OFFLINE */
 .member-offline {
-    background: #HEX;
+    background: none;
     content:url('https://i.ibb.co/9Hm9BCXG/moon.png')!important;
 	border-radius: 0px;
     width:40px!important;
