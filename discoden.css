@@ -300,7 +300,7 @@ may 8th: stop touchy */
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention {
 background-color: #4A352B !important;
 border-left: 6px solid #A35F00 !important;
-color: #HEX !important; }
+color: white !important; }
 
 /* This is the character counter, that displays X/150 */
 
