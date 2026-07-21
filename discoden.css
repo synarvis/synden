@@ -78,7 +78,7 @@ color: #BAB6A1 !important;
 background: none !important; }
    
 a:hover {
-color: #04639e !important; }
+color: #D9A216 !important; }
  
 /* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.
 You can make it a solid color by either using a HEX code, or by setting the final number in RGBA to 1.0 */
@@ -147,6 +147,12 @@ color: white; }
 and danger the same color for best results
 (quick notice maybe? more research)*/
  
+.alert {
+background: #HEX !important;
+color: #HEX !important;
+border: none !important;
+border-radius: 0px !important;
+text-align: center !important;  }
 .alert-warning {
 background: #FF9500 !important;
 color: white !important;}
@@ -514,7 +520,7 @@ content: url('')!important;
 width: 258px !important;
 height: auto !important; }
 a[href$="543749"]>div.cave-grid>img {
-content: url('https://github.com/synarvis/synden/blob/main/image_2026-07-21_144440890.png?raw=true')!important; 
+content: url('https://github.com/synarvis/synden/blob/main/images/image_2026-07-21_144440890.png?raw=true')!important; 
 width: 258px !important;
 height: auto !important; }
 a[href$="CAVEID"]>div.cave-grid>img {
@@ -524,12 +530,12 @@ height: auto !important; }
 
 
 div.cave-grid>img[src$="nestingbanner.png"] {
-	content: url('https://github.com/synarvis/synden/blob/main/image_2026-07-21_144353248.png?raw=true')!important; }
+	content: url('https://github.com/synarvis/synden/blob/main/images/image_2026-07-21_144353248.png?raw=true')!important; }
 a[href$="unsorted.php?id=596724"]>div.cave-grid>img{
-content: url('https://github.com/synarvis/synden/blob/main/image_2026-07-21_144101968.png?raw=true')!important;
+content: url('https://github.com/synarvis/synden/blob/main/images/image_2026-07-21_144101968.png?raw=true')!important;
 width: 258px;}
 a[href*="lionoverview.php?id=596724"]>div.cave-grid>img {
-content: url('https://github.com/synarvis/synden/blob/main/image_2026-07-21_144555663.png?raw=true')!important;
+content: url('https://github.com/synarvis/synden/blob/main/images/image_2026-07-21_144555663.png?raw=true')!important;
 width: 258px; }
 
 a[href$="unsorted-beetles.php?id=596724"] img {
