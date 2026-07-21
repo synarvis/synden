@@ -403,7 +403,7 @@ just don't use apostraphes (') in the actual text, that messes with the code
 /* CUSTOM KING TITLE - AFTER */
  
 #about > tbody > tr:nth-child(1) > td > div::after {
-    content:',';
+    content:'';
     font-size:17px;
     
 }
