@@ -87,7 +87,7 @@ You can make it a solid color by either using a HEX code, or by setting the fina
 background: rgba(35, 25, 20, .5);
 border: none;
 box-shadow: none;
-border-radius: 5px; }
+border-radius: 10px; }
 .col-md-9 {
 background: none; } 
  
