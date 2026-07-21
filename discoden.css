@@ -221,6 +221,9 @@ to the colors you put here.
 Bars will also inherit the border-radius value from this one, so it's
 not needed to specify border-radius for all bars. */
 
+.progress-bar {
+background: #HEX !important; 
+border-radius: 10px !important; }
 
 /* ENERGY */ .progress-bar-warning { 
 background: #04639e !important;
@@ -582,6 +585,179 @@ box html should look like this
 <div class="boxcontainer"><div class="Box1">text</div></div>
 <div class="boxcontainer"><div class="Box3">text</div><div class="Box2">text</div></div> */
 
+.boxcontainer {
+background: none;
+height: 75px;
+padding: 0px;
+display: block;
+justify-content: center;
+transition: 1s }
+.boxcontainer:hover {
+height: 250px; }
+   
+.Box1 {
+float: left;
+background: #HEX !important;
+color: #HEX !important;
+border: none !important;
+border-radius: 0px !important;
+padding: 5px;
+float: left;
+height: 75px;
+width: 100%;
+overflow: hidden;
+margin-bottom: 10px;
+transition: 1s }   
+.Box1:hover {
+overflow-y: auto;
+height: 250px; }
+   
+.Box2 {
+float: right;
+background: #HEX !important;
+color: #HEX !important;
+border: none !important;
+border-radius: 0px !important;
+padding: 5px;
+float: right;
+height: 75px;
+width: 30%;
+overflow: hidden;
+margin-bottom: 10px;
+transition: 1s }   
+.Box2:hover {
+overflow-y: auto;
+height: 250px; }
+	
+.Box3 {
+float: right;
+background: #HEX !important;
+color: #HEX !important;
+border: none !important;
+border-radius: 0px !important;
+padding: 5px;
+float: right;
+height: 75px;
+width: 65%;
+overflow: hidden;
+margin-bottom: 10px;
+transition: 1s }   
+.Box3:hover {
+overflow-y: auto;
+height: 250px; }
+
+/* MOBILE ONLY BOXES 
+- these will only display on mobile. use if you want a more simplified box for mobile.
+mobile box html should look like this
+<div class="mobilebox">text</div> 
+if you don't want mobile only boxes, delete everything from below this to above cave covers */
+
+.mobilebox {
+float: center;
+background: #HEX !important;
+border: 1px solid #HEX !important;
+border-radius: 0px !important;
+color: #HEX !important;
+margin: 10px;
+padding: 10px;
+float: center;
+height: 155px;
+width: 80%;
+overflow: auto;
+transition: 1s }
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+
+		.Box1, .Box2, .Box3, .boxcontainer {
+			display: none !important;
+		display: block !important; }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+
+		.Box1, .Box2, .Box3, .boxcontainer {
+			display: none !important;
+		}
+
+	}
+
+	@media only screen and (max-width: 991px) and (min-width: 768px) {
+
+		.Box1, .Box2, .Box3, .boxcontainer {
+			display: none !important;
+		}
+
+	}
+
+	@media only screen and (max-width: 767px) {
+
+		.Box1, .Box2, .Box3, .boxcontainer {
+			display: none !important;
+		}
+}
+
+@media screen and (min-width: 1200px){
+
+		.mobilebox, .mobcontainer {
+			display: none !important;
+		}
+}
+
+.mobilebox, .mobcontainer {
+display: block !important; }
+.Box1, .Box2, .Box3, .boxcontainer  {
+display: none !important; }
+
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    display: block !important;
+} 
+
+@media only screen and (min-width: 1200px) {
+        div.quote {
+            width: 790px;
+        }
+    }
+
+/* These are nice little QOL codes, credit to their creators!
+
+Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+
+note from jes:
+For the members online and offline code, please only fill out one or the other.
+If you want a solid color, only fill in the 'background'
+if you want an image, only fill in the 'content' 
+or fill out both i can't stop you but it'll be a clusterfuck */
+
+/* MEMBER ONLINE */
+.member-online {
+    background: #HEX;
+    content:url('https://i.ibb.co/Tx9x3xXC/radiant.png')!important;
+	border-radius: 0px;
+    width:40px!important;
+    height:40px;
+	margin:-10px;
+	margin-left:50px; }
+	
+/* MEMBER OFFLINE */
+.member-offline {
+    background: #HEX;
+    content:url('https://i.ibb.co/9Hm9BCXG/moon.png')!important;
+	border-radius: 0px;
+    width:40px!important;
+    height:40px;
+	margin:-10px;
+	margin-left:10px;
+	filter: saturate(0%); }
 
 /* ALL CURRENCY ICONS - also by kat and pandora 
 if you do not want to change currency icons, simply delete this section of code */
