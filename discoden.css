@@ -1,6 +1,14 @@
-/* edited template by katie#106465, still a wip :) */
+/*
 
-/* fontsssss and all */
+some helpful terms to keep in mind
+element - the thing you're editing
+background - refers to the entire background of the element
+color - the TEXT color of the element 
+border-radius - the roundness of the borders, for circular elements, set to 50% 
+box-shadow - a shadow behind the element itself. you usually want this set to none. 
+*/
+ 
+/* FONTS - Import from Google Fonts */
  
 @import url('https://fonts.googleapis.com/css2?family=Asset&family=Space+Grotesk:wght@300..700&family=Special+Elite&display=swap');
 
@@ -10,7 +18,10 @@ body {font-family: Space Grotesk, sans-serif;}
  
 .navbar {font-family: Special Elite, system-ui;}
 
-/* background */
+/* BACKGROUNDS 
+The first one is for PC, the second is for mobile. You can also use an image in the second one
+via replacing #HEX with url('IMG LINK') center center fixed;
+BUT I recommend repeating patterns rather than full images. */
  
 @media screen and (min-width: 601px) { 
 body {
@@ -24,7 +35,7 @@ background: #HEX;
 background-size: cover;
 color: #HEX; } }
 
-/* boxes & headers */
+/* SCROLL BOXES */
  
 ::-webkit-scrollbar {
 width: 7px;
@@ -34,6 +45,10 @@ background: #HEX;}
 ::-webkit-scrollbar-thumb {
 background: #HEX; } 
  
+/* HEADERS -
+H1 is the big header that says 'X's Den'
+H2 is not used anywhere in the default look unless you want to use it.
+H3 is used in the side bar (above the energy panel, achievement panel, etc. */
 
 .sketchbook {
   position: relative;
@@ -65,7 +80,9 @@ h3 {
 color: #D9A216 !important;
 font-size: 18px;}
  
-/* links */
+/* LINKS
+Color of links. This will affect all links on your page.
+Plan accordingly. */
  
 a:link,
 a:visited {
@@ -75,7 +92,8 @@ background: none !important; }
 a:hover {
 color: #HEX !important; }
  
-/* panel */
+/* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.
+You can make it a solid color by either using a HEX code, or by setting the final number in RGBA to 1.0 */
    
 .container.main {
 background: rgba(35, 25, 20, .5);
@@ -1003,6 +1021,7 @@ DO IT BELOW THIS POINT BUT BEFORE THE CREDIT */
 
 
 	
+/* CREDIT - no touchy this part, the code will work just fine */
  
 .breadcrumb::after {
 content: "sunrise parabellum.";
