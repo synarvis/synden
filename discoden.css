@@ -403,7 +403,7 @@ just don't use apostraphes (') in the actual text, that messes with the code
 /* CUSTOM KING TITLE - AFTER */
  
 #about > tbody > tr:nth-child(1) > td > div::after {
-    content:', the Vahana';
+    content:',';
     font-size:17px;
     
 }
@@ -411,7 +411,7 @@ just don't use apostraphes (') in the actual text, that messes with the code
 /* CUSTOM KING TITLE - BEFORE */
  
 #about > tbody > tr:nth-child(1) > td > div::before {
-    content:'';
+    content:'Kinky';
     font-size:17px;
     
 }
@@ -515,7 +515,7 @@ you can copy and paste for more caves or mounds than what's provided
 */
 
 div.cave-grid>img {
-content: url('https://i.postimg.cc/zGRtGMJW/image-2026-07-21-145200607.jpg')!important;
+content: url('https://github.com/synarvis/synden/blob/main/images/image_2026-07-21_145200607.png?raw=true')!important;
 width: 258px; }
 
 a[href$=""]>div.cave-grid>img {
