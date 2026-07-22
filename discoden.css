@@ -561,7 +561,7 @@ transition: 1s }
 height: 250px; }
    
 .Box1 {
-float: left;
+float: center;
 background: rgb(35, 25, 20, 07) !important;
 color: white !important;
 border: none !important;
