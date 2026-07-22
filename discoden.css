@@ -562,7 +562,7 @@ height: 250px; }
    
 .Box1 {
 float: left;
-background: #4A352B !important;
+background: rgb(35, 25, 20, 07) !important;
 color: white !important;
 border: none !important;
 border-radius: 0px !important;
@@ -579,7 +579,7 @@ height: 250px; }
    
 .Box2 {
 float: right;
-background: #4A352B !important;
+background: rgb(35, 25, 20, 07) !important;
 color: white !important;
 border: none !important;
 border-radius: 0px !important;
@@ -596,7 +596,7 @@ height: 250px; }
 	
 .Box3 {
 float: right;
-background: #4A352B !important;
+background: rgb(35, 25, 20, 07) !important;
 color: white !important;
 border: none !important;
 border-radius: 0px !important;
