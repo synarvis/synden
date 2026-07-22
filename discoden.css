@@ -571,11 +571,7 @@ float: left;
 height: 75px;
 width: 65%;
 overflow: hidden;
-margin-bottom: 10px;
-transition: 1s }   
-.Box1:hover {
-overflow-y: auto;
-height: 250px; }
+margin-bottom: 10px;}
    
 .Box2 {
 float: right;
@@ -588,11 +584,8 @@ float: right;
 height: 75px;
 width: 30%;
 overflow: hidden;
-margin-bottom: 10px;
-transition: 1s }   
-.Box2:hover {
-overflow-y: auto;
-height: 250px; }
+margin-bottom: 10px;}
+
 	
 .Box3 {
 float: right;
@@ -605,11 +598,7 @@ float: right;
 height: 75px;
 width: 65%;
 overflow: hidden;
-margin-bottom: 10px;
-transition: 1s }   
-.Box3:hover {
-overflow-y: auto;
-height: 250px; }
+margin-bottom: 10px;}
 
 
 /* These are nice little QOL codes, credit to their creators!
