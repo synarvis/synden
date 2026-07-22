@@ -421,41 +421,6 @@ if you don't want these changed, just do not edit this part.
 the names are pretty self explanatory
 you can also edit these if you want to add effects to YOUR player image and don't want it to be on these images */
 
-img[src$="icon_den_message.png"] {
-content: url('imagelink') !important;
-width: 24px !important; }
-
-img[src$="icon_den_gift.png"] {
-content: url('imagelink') !important;
-width: 24px !important; }
-
-img[src$="icon_den_trade.png"] {
-content: url('imagelink') !important; 
-width: 24px !important; }
-
-img[src$="icon_den_wishlist.png"] {
-content: url('imagelink') !important;
-width: 24px !important; }
-
-img[src$="icon_den_viewtrade.png"] {
-content: url('imagelink') !important;
-width: 24px !important; }
-
-img[src$="icon_den_gift.png"] {
-content: url('imagelink') !important;
-width: 24px !important; }
-
-img[src$="icon_den_block.png"] {
-content: url('imagelink') !important;
-width: 24px !important; }
-
-img[src$="icon_den_friend.png"] {
-content: url('imagelink') !important;
-width: 24px !important; }
-
-img[src$="donator.png"] {
-content: url('imagelink') !important;
-width: 24px !important; }
 
 /* LION AND USER AVATAR OPACITY */
    
