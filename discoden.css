@@ -565,7 +565,7 @@ border: none !important;
 border-radius: 10px !important;
 padding: 5px;
 float: center;
-height: 160px;
+height: auto;
 width: 65%;
 overflow: hidden;
 margin-bottom: 30px;}
