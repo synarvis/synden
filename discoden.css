@@ -566,10 +566,12 @@ border-radius: 10px !important;
 padding: 5px;
 padding-left: 30px;
 padding-right: 30px;
+padding-bottom: 25px;
 float: center;
 height: auto;
 width: 50%;
-overflow: hidden;}
+overflow: hidden;
+margin-bottom: 10px;}
    
 .Box2 {
 float: right;
@@ -608,13 +610,14 @@ color: white !important;
 border: none !important;
 border-radius: 10px !important;
 padding: 5px;
+padding-bottom: 30px;
 float: center;
 height: auto;
-width: 98%;
+width: 95%;
 overflow: hidden;
-margin-bottom: 30px;
-margin-top:20px;
-margin-left: 30px;}
+margin-bottom: 0px;
+margin-top: 20px;
+margin-left: 10px;}
 
 .Box5 {
 float: center;
@@ -625,11 +628,11 @@ border-radius: 10px !important;
 padding: 5px;
 float: center;
 height: auto;
-width: 98%;
+width: 100%;
 overflow: hidden;
 margin-bottom: 30px;
 margin-top:20px;
-margin-left: 30px;}
+margin-left: 10px;}
 
 
 /* These are nice little QOL codes, credit to their creators!
