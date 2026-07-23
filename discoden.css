@@ -564,9 +564,11 @@ color: white !important;
 border: none !important;
 border-radius: 10px !important;
 padding: 5px;
+padding-left: 30px;
+padding-right: 30px;
 float: center;
 height: auto;
-width: 65%;
+width: 50%;
 overflow: hidden;}
    
 .Box2 {
