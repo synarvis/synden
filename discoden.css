@@ -600,6 +600,19 @@ overflow: hidden;
 margin-bottom: 20px;
 margin-top: 80px;}
 
+.Box4 {
+float: center;
+background: rgb(35, 25, 20, .7) !important;
+color: white !important;
+border: none !important;
+border-radius: 10px !important;
+padding: 5px;
+float: center;
+height: 180px;
+width: 90%;
+overflow: hidden;
+margin-bottom: 30px;}
+
 
 /* These are nice little QOL codes, credit to their creators!
 
