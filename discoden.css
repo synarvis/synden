@@ -264,7 +264,7 @@ div#chatMessageContainer {
 border: none !important; }
 
 .s-chat-message_timestamp {
-color: white !important; }
+color: #BAB6A1 !important; }
 
 .s-chat-sidebar #fraChatChannelMenu,
 button.channelSwitcher, button.channelSwitcher.active {
