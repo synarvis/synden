@@ -554,7 +554,7 @@ box html should look like this
 background: none;
 height: 75px;
 padding: 0px;
-display: block;
+display: contents;
 justify-content: center;}
    
 .Box1 {
