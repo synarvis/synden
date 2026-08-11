@@ -409,12 +409,7 @@ just don't use apostraphes (') in the actual text, that messes with the code
 }
  
 /* CUSTOM KING TITLE - BEFORE */
- 
-#about > tbody > tr:nth-child(1) > td > div::before {
-    content:'Kinky';
-    font-size:17px;
-    
-}
+
 
 /* DEN ICON IMAGE REPLACEMENTS - These replace the custom images shown next to message, view trades, etc.
 if you don't want these changed, just do not edit this part. 
