@@ -181,8 +181,8 @@ color: white !important;}
 	overflow:visible;
 	box-shadow: 0 0 5px #000;
 }
-.profileTab:active, .profileTab:focus {
-	height: 800px;
+.profileTab:focus {
+	height: 600px;
 }
 
 
