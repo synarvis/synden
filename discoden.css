@@ -181,8 +181,9 @@ color: white !important;}
 	overflow:visible;
 	box-shadow: 0 0 5px #000;
 }
-.profileTab:focus {
-	height: 600px;
+.profileTab:hover, .profileTab:focus {
+	height: 500px;
+
 }
 
 
