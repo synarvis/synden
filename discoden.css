@@ -43,7 +43,7 @@ height: 7px; }
 ::-webkit-scrollbar-track {
 background: #475437;}
 ::-webkit-scrollbar-thumb {
-background: #FF9500} 
+background: #FF9500}
  
 /* HEADERS -
 H1 is the big header that says 'X's Den'
@@ -168,7 +168,7 @@ color: white !important;}
 	background: #475437;
 	color: white;
 	border-bottom: none;
-	padding: 15px;
+	padding: 1px;
 	position: fixed;
 	left: 5px;
 	bottom: 0;
@@ -176,13 +176,13 @@ color: white !important;}
 	width: 250px;
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
-	transition: 2s;
+	transition: 1s;
 	z-index: 100;
-	overflow: scroll;
+	overflow:visible;
 	box-shadow: 0 0 5px #000;
 }
-.profileTab:hover, .profileTab:focus {
-	height: 300px;
+.profileTab:active, .profileTab:focus {
+	height: 800px;
 }
 
 
