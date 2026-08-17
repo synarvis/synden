@@ -164,6 +164,28 @@ background: #04639e !important;
 color: white !important;}
  
 
+.profileTab {
+	background: #475437;
+	color: white;
+	border-bottom: none;
+	padding: 15px;
+	position: fixed;
+	left: 5px;
+	bottom: 0;
+	height: 50px;
+	width: 250px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	transition: 2s;
+	z-index: 100;
+	overflow: scroll;
+	box-shadow: 0 0 5px #000;
+}
+.profileTab:hover, .profileTab:focus {
+	height: 300px;
+}
+
+
 /*COMMENT BOX 
 This is a complicated one. please read carefully
 div#CommentBox is the color of the ENTIRE BOX, without comments in it. it is also the container
