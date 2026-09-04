@@ -411,15 +411,38 @@ table#about.table{
 background-image: url(https://github.com/synarvis/synden/blob/main/images/Screenshot%202026-09-04%20191938.png?raw=true) !important;
 background-repeat: no-repeat;
 background-size: 850px;
-border-radius: 10px !important;
+border-radius: 15px !important;
 height: 500px !important;
 border-collapse: separate;
-border-radius: 0px; }
+border-radius: 0px;
+border: none !important; }
 
 
 table#player.table{
 background: rgba(0, 0, 0, 0) !important;
+border: none !important;
 }
+
+table#clans.table{
+    border: none !important;
+}
+
+table#allies.table{
+    border: none !important;
+}
+
+table#reclaim.table{
+    border: none !important;
+}
+
+table#sparring.table{
+    border: none !important;
+}
+
+table.table {
+    border: none !important;
+}
+
 
 
 /* .top is where your king's name is displayed
@@ -435,9 +458,13 @@ height: 10px;
 border-radius: 10px !important; }
 
 td.bottom {
+color: #475437;
+border: none !important;
 height: 10px;
-top: 0px !important; 
+top: 0px !important;
+border-radius: 10px;
 }
+
 
 /* This removes the underline under the 'X mutations in your pride' link
 if you like it, you can just delete the code under this */
