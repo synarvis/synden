@@ -406,27 +406,44 @@ font-size: 14px !important; }
 Table - the background behind your table. You can make this a solid color by replacing
 rgba(0, 0, 0, 0.0) with a HEX code, or by replacing the 0.0 with a 1.0 */
  
-.table {
-background: rgba(0, 0, 0, 0.0);
-border: none !important;
+
+table#about.table{
+background-image: url(https://github.com/synarvis/synden/blob/main/images/Screenshot%202026-09-04%20191938.png?raw=true) !important;
+background-repeat: no-repeat;
+background-size: 850px;
+border-radius: 10px !important;
+height: 500px !important;
 border-collapse: separate;
 border-radius: 0px; }
+
+
+table#player.table{
+background: rgba(0, 0, 0, 0) !important;
+}
+
 
 /* .top is where your king's name is displayed
 .bottom is where your number of mutations within your pride is displayed
 th is every other header on your den, like sparring table, reclaim left lions,
 edit details, etc. */
 
-.top, .bottom, th {
+.top, th {
 background: #475437 !important;
 color: white !important;
 border: none !important;
+height: 10px;
 border-radius: 10px !important; }
+
+td.bottom {
+height: 10px;
+top: 0px !important; 
+}
 
 /* This removes the underline under the 'X mutations in your pride' link
 if you like it, you can just delete the code under this */
 
 .bottom a:visited, .bottom a {
+top: 50px;
 text-decoration: none !important;}
 
 /* table.left will be used by the sections on the left of the edit your details panel once open
@@ -438,13 +455,17 @@ info about your den, like your territory, your king's stats, etc.
 background: none;
 border-radius: 5px !important; }
 
+.inner-table tbody{
+top: 200px;
+}
+
 .inner-table .left {
 background: #231914 !important;
 border-radius: 5px !important;  }
 
 .inner-table .right {
 background: #4A352B !important;
-border-radius: 5px !important; 
+border-radius: 5px !important;
 color: white !important; } 
 
 .right_odd {
@@ -485,6 +506,7 @@ you can also edit these if you want to add effects to YOUR player image and don'
 /* LION AND USER AVATAR OPACITY */
    
 div#lion_image {
+visibility: hidden;
 opacity: 1.0;
 border-radius: 10%;
 overflow: hidden;
